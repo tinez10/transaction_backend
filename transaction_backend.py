@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-import some_payment_gateway  # Replace with actual payment gateway library
+import some_payment_gateway  # Replace with the actual payment gateway library
 
 app = Flask(__name__)
 
